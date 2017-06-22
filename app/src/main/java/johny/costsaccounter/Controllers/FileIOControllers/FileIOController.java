@@ -1,5 +1,5 @@
 package johny.costsaccounter.Controllers.FileIOControllers;
-import johny.costsaccounter.Model.Interfaces.Saveable;
+import johny.costsaccounter.Model.Abstraction.Interfaces.Saveable;
 
 /**
  * Created by Johny on 21.06.2017.

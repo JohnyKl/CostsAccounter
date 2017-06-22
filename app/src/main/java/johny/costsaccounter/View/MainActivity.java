@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 import johny.costsaccounter.R;
 
@@ -20,6 +21,22 @@ public class MainActivity extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
+    }
+
+    public void btnLeftOnClick(View v) {
+// do something when the button is clicked
+    }
+
+    public void btnRightOnClick(View v) {
+// do something when the button is clicked
+    }
+
+    public void btnAddPersonOnClick(View v) {
+// do something when the button is clicked
+    }
+
+    public void btnAddConsumptionOnClick(View v) {
+// do something when the button is clicked
     }
 
     @Override
